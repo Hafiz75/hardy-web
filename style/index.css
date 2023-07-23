@@ -40,8 +40,10 @@ nav a {
 }
 
 header {
-  background: #fff8f3 url("/images/header_bg.png") no-repeat;
-  background-position: bottom right;
+  background-color: #fff8f3;
+  background-image: url("/images/developer.png"), url("/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom left,bottom right;
 }
 
 .banner {
